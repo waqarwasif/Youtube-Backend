@@ -1,15 +1,19 @@
 {
-  "name": "backend",
+  "name": "youtube-backend",
   "version": "1.0.0",
-  "description": "a proper backend",
+  "description": "a proper youtube backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Syed Waqar Wasif",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
